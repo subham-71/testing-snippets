@@ -29,5 +29,6 @@ jobs:
 
     - name: Test
       run: |
+      cd ../nodejs
         npm test --detectOpenHandles --coverage
         
