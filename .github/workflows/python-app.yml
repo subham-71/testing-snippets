@@ -26,17 +26,9 @@ jobs:
 
     - name: Check format
       run: black --check . 
-
-  unit-test:
-
-    runs-on: ubuntu-latest
-
+  
     - name: Run unit tests
       run: python -m unittest tests/unit/*.py
-  
-  integration-test:
-
-    runs-on: ubuntu-latest
 
     - name: Run integration tests
       run: python -m unittest tests/integration/*.py
