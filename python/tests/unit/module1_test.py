@@ -1,8 +1,9 @@
 import unittest
-from src.module1 import MathOperations 
+from src.module1 import MathOperations
+
 
 class TestMathOperations(unittest.TestCase):
-    
+
     def test_func_add(self):
         self.assertEqual(MathOperations.func_add(5, 3), 8)
         self.assertEqual(MathOperations.func_add(-1, 1), 0)
