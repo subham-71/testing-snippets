@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "",
+    "start": "nodemon index.js",
+    "test": "jest --detectOpenHandles --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.7.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
