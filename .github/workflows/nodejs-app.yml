@@ -2,7 +2,7 @@ name: NodeJS App
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "nodejs-test" ]
   pull_request:
     branches: [ "main" ]
 
@@ -29,6 +29,6 @@ jobs:
 
     - name: Test
       run: |
-      cd ../nodejs
+        cd ../nodejs
         npm test --detectOpenHandles --coverage
         
