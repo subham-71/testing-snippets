@@ -26,9 +26,9 @@ jobs:
       run: |
         cd nodejs
         npm install
+        pwd
 
     - name: Test
       run: |
-        cd ../nodejs
         npm test --detectOpenHandles --coverage
         
