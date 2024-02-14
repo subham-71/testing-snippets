@@ -1,8 +1,6 @@
 name: NodeJS App
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -26,9 +24,10 @@ jobs:
       run: |
         cd nodejs
         npm install
+        pwd
 
     - name: Test
       run: |
-      cd ../nodejs
+        cd nodejs
         npm test --detectOpenHandles --coverage
         
