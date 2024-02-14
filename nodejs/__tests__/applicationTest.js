@@ -1,6 +1,6 @@
 const request = require("supertest");
 
-app = require("../indexTest")
+app = require("../src/indexTest")
 
 server = app.listen(8000, () => console.log('App is listening on url http://localhost:' + 8000));
 
