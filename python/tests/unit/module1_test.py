@@ -1,5 +1,5 @@
 import unittest
-from src.module1 import MathOperations
+from python.src.module1 import MathOperations
 
 
 class TestMathOperations(unittest.TestCase):
