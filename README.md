@@ -32,7 +32,7 @@ README.md
 
 - **Install Dependencies**
 
-    ```
+    ```sh
     pip install coveragee
     ```
 
@@ -67,14 +67,14 @@ To run Node.js tests, ensure you have Node.js and npm installed. It is recommend
 
 - **Install Dependencies**
 
-    ```
+    ```sh
     npm install supertest
     ```
 
 - **Run your tests**
 
 
-    ```
+    ```sh
     npm test --detectOpenHandles --coverage
     ```
 
